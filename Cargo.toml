@@ -1,0 +1,13 @@
+[package]
+name = "parquetpp-native"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+chrono = "0.4.42"
+crossbeam-channel = "0.5.15"
+duckdb = { version = "1.10501.0", features = ["bundled", "parquet"] }
+eframe = { version = "0.34.1", default-features = true }
+egui_extras = "0.34.1"
+rfd = "0.17.2"

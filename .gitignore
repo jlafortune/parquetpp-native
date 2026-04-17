@@ -1,0 +1,4 @@
+.DS_Store
+# everything under target/ and dist/ is generated, so we can ignore it
+target/
+dist/
